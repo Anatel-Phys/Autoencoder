@@ -2,7 +2,7 @@
 #define _FunctionsH
 #include <cmath>
 #include <fstream>
-//commentary
+
 #define LEAKY_RELU_SLOPE 0.3
 
 static void write_matrix(Eigen::MatrixXf& mat, std::string fileName)
